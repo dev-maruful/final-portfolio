@@ -1,0 +1,16 @@
+.mouse-effect {
+  position: fixed;
+  top: 0;
+  left: 0;
+  pointer-events: none;
+  z-index: 9999;
+}
+
+.mouse-effect div {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: #42d7f5; /* Change the color as desired */
+  transform: translate(-50%, -50%);
+}
