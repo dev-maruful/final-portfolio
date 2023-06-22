@@ -5,13 +5,13 @@ const Footer = () => {
   return (
     <div>
       <div className="flex justify-center items-center gap-8 text-xl mb-3">
-        <div className="bg-gray-200 rounded-full h-10 w-10 flex items-center justify-center hover:bg-gray-400 hover:cursor-pointer hover:text-[#3b5998]">
+        <div className="bg-gray-200 rounded-full h-10 w-10 flex items-center justify-center hover:bg-gray-50 hover:cursor-pointer hover:text-[#3b5998]">
           <FaFacebookF></FaFacebookF>
         </div>
-        <div className="bg-gray-200 rounded-full h-10 w-10 flex items-center justify-center hover:bg-gray-400 hover:cursor-pointer hover:text-[#0072b1]">
+        <div className="bg-gray-200 rounded-full h-10 w-10 flex items-center justify-center hover:bg-gray-50 hover:cursor-pointer hover:text-[#0072b1]">
           <FaLinkedinIn></FaLinkedinIn>
         </div>
-        <div className="bg-gray-200 rounded-full h-10 w-10 flex items-center justify-center hover:bg-gray-400 hover:cursor-pointer">
+        <div className="bg-gray-200 rounded-full h-10 w-10 flex items-center justify-center hover:bg-gray-50 hover:cursor-pointer">
           <FaGithub></FaGithub>
         </div>
       </div>

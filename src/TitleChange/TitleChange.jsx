@@ -5,10 +5,9 @@ import "./TitleChange.css";
 const TitleChange = () => {
   const [titles, setTitles] = useState([
     "Full Stack Developer",
-    "MERN Stack Developer",
-    "React Developer",
-    "Frontend Developer",
-    "JavaScript Developer",
+    "MERN Expert",
+    "Team Leader",
+    "Team Player",
   ]);
   const [currentTitleIndex, setCurrentTitleIndex] = useState(0);
   const [currentTitle, setCurrentTitle] = useState(titles[currentTitleIndex]);
