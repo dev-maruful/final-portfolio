@@ -11,7 +11,9 @@ const Navigation = () => {
         <Link to="/about">
           <li className="cursor-pointer hover:text-[#42d7f5]">About Me</li>
         </Link>
-        <li className="cursor-pointer hover:text-[#42d7f5]">My Skills</li>
+        <Link to="/skills">
+          <li className="cursor-pointer hover:text-[#42d7f5]">My Skills</li>
+        </Link>
         <li className="cursor-pointer hover:text-[#42d7f5]">My Projects</li>
         <li className="cursor-pointer hover:text-[#42d7f5]">Contact Me</li>
         <li className="cursor-pointer hover:text-[#42d7f5]">My Blogs</li>

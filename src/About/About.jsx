@@ -7,7 +7,8 @@ const About = () => {
       <div className="flex items-center gap-8">
         <div className="w-2/3">
           <h3 className="text-4xl font-bold mb-5">
-            About <span className="text-[#42d7f5]">Myself!</span>
+            {"<"}About <span className="text-[#42d7f5]">Myself!</span>
+            {" />"}
           </h3>
           <div className="text-base flex flex-col gap-5">
             <p>
