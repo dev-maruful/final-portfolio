@@ -2,6 +2,7 @@ import React from "react";
 import profile_pic from "../assets/images/profile-picture.png";
 import signature from "../assets/images/signature.png";
 import Footer from "../footer/Footer";
+import Navigation from "../navigation/Navigation";
 
 const Sidebar = () => {
   return (
@@ -17,7 +18,9 @@ const Sidebar = () => {
         <img className="w-[200px] h-[65px]" src={signature} alt="" />
         <h3 className="font-bold text-xl absolute top-5">MD. Maruful Islam</h3>
       </div>
-      <div className="min-h-[280px]">navbar</div>
+      <div className="min-h-[280px] h-full">
+        <Navigation></Navigation>
+      </div>
       <Footer></Footer>
     </div>
   );
