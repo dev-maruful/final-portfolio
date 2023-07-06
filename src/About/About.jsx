@@ -3,7 +3,7 @@ import profile from "../assets/images/profile-picture.png";
 
 const About = () => {
   return (
-    <div className="py-16 min-h-screen flex flex-col justify-between">
+    <div className="py-10 min-h-screen flex flex-col justify-between">
       <div className="flex items-center gap-8">
         <div className="w-2/3">
           <h3 className="text-4xl font-bold mb-5">

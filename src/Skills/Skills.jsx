@@ -24,7 +24,7 @@ import vscodeIcon from "../assets/images/icons/vscode.png";
 
 const Skills = () => {
   return (
-    <div className="py-16 flex flex-col items-center justify-between min-h-screen ">
+    <div className="py-10 flex flex-col items-center justify-between min-h-screen ">
       <h3 className="text-4xl font-bold">
         {"<"}My <span className="text-[#42d7f5]">Skills!</span>
         {" />"}
@@ -99,7 +99,7 @@ const Skills = () => {
           {"}"} {" />"}
         </div>
         {/* tools */}
-        <div className="text-2xl font-semibold mb-5">
+        <div className="text-2xl font-semibold">
           {"<"}Tools <span className="text-[#42d7f5]">names</span>={`{`}{" "}
           <div className="w-full inline h-28">
             <Marquee className="flex items-center gap-5">

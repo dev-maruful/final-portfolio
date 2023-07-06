@@ -3,7 +3,7 @@ import TitleChange from "../TitleChange/TitleChange";
 
 const Home = () => {
   return (
-    <div className="min-h-screen py-16 flex flex-col justify-between">
+    <div className="min-h-screen py-10 flex flex-col justify-between">
       <div>
         <h2 className="text-6xl font-bold mb-3">
           {"<"}Hi, I'm <span className="text-[#42d7f5]">Maruf!</span>
