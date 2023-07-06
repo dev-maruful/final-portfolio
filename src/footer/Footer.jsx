@@ -5,18 +5,30 @@ const Footer = () => {
   return (
     <div>
       <div className="flex justify-center items-center gap-8 text-xl mb-3">
-        <div className="bg-gray-200 rounded-full h-10 w-10 flex items-center justify-center hover:bg-gray-50 hover:cursor-pointer hover:text-[#3b5998]">
+        <a
+          className="bg-gray-200 rounded-full h-10 w-10 flex items-center justify-center hover:bg-gray-50 hover:cursor-pointer hover:text-[#3b5998]"
+          target="_blank"
+          href="https://www.facebook.com/annonymous.adnan"
+        >
           <FaFacebookF></FaFacebookF>
-        </div>
-        <div className="bg-gray-200 rounded-full h-10 w-10 flex items-center justify-center hover:bg-gray-50 hover:cursor-pointer hover:text-[#0072b1]">
+        </a>
+        <a
+          className="bg-gray-200 rounded-full h-10 w-10 flex items-center justify-center hover:bg-gray-50 hover:cursor-pointer hover:text-[#0072b1]"
+          target="_blank"
+          href="https://www.linkedin.com/in/maruful-islam22/"
+        >
           <FaLinkedinIn></FaLinkedinIn>
-        </div>
-        <div className="bg-gray-200 rounded-full h-10 w-10 flex items-center justify-center hover:bg-gray-50 hover:cursor-pointer">
+        </a>
+        <a
+          className="bg-gray-200 rounded-full h-10 w-10 flex items-center justify-center hover:bg-gray-50 hover:cursor-pointer"
+          target="_blank"
+          href="https://github.com/tawsif-adnan"
+        >
           <FaGithub></FaGithub>
-        </div>
+        </a>
       </div>
       <div>
-        <p className="font-medium text-gray-400">
+        <p className="font-medium text-gray-400 text-center">
           Copyright © 2023 MD. Maruful Islam <br />
           All rights reserved.
         </p>

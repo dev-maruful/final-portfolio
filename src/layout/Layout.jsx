@@ -5,11 +5,11 @@ import { Outlet } from "react-router-dom";
 
 const Layout = () => {
   return (
-    <div className="grid md:grid-cols-4 min-h-screen font-montserrat">
-      <div className="col-span-1 text-center py-10 border-r-2 border-gray-200">
+    <div className="grid md:grid-cols-4 min-h-screen font-montserrat relative">
+      <div className="col-span-1 text-center border-r-2 border-gray-200 fixed w-1/4 min-h-screen max-h-screen">
         <Sidebar></Sidebar>
       </div>
-      <div className="col-span-3">
+      <div className="col-span-3 absolute right-0 w-3/4">
         <div className="max-w-4xl mx-auto">
           <Outlet></Outlet>
         </div>

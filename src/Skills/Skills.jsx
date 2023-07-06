@@ -144,9 +144,13 @@ const Skills = () => {
           {"}"} {" />"}
         </div>
       </div>
-      <button className="border-2 max-w-[250px] px-3 py-2 rounded border-[#42d7f5] text-lg font-semibold hover:bg-[#42d7f5] hover:text-white">
+      <a
+        className="border-2 max-w-[250px] px-3 py-2 rounded border-[#42d7f5] text-lg font-semibold hover:bg-[#42d7f5] hover:text-white"
+        target="_blank"
+        href="https://drive.google.com/file/d/1rP0JIvRIMKjBOUKtHzGMRYQLio7p_3O1/view?usp=sharing"
+      >
         Download Resume!
-      </button>
+      </a>
     </div>
   );
 };

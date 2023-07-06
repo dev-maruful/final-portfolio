@@ -3,6 +3,7 @@ import Layout from "../layout/Layout";
 import Home from "../Home/Home";
 import About from "../About/About";
 import Skills from "../Skills/Skills";
+import Projects from "../projects/Projects";
 
 const router = createBrowserRouter([
   {
@@ -20,6 +21,10 @@ const router = createBrowserRouter([
       {
         path: "/skills",
         element: <Skills></Skills>,
+      },
+      {
+        path: "/projects",
+        element: <Projects></Projects>,
       },
     ],
   },
