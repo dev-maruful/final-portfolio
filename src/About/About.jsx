@@ -13,7 +13,7 @@ const About = () => {
           <div className="text-base flex flex-col gap-5">
             <p>
               Hello there, My name is{" "}
-              <span className="text-[#42d7f5] font-medium font-montserrat">
+              <span className="text-[#42d7f5] font-bold font-montserrat">
                 MD. Maruful Islam
               </span>
               . I'm a Full Stack Developer and I'm very passionate and dedicated

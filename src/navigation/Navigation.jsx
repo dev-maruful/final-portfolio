@@ -37,7 +37,14 @@ const Navigation = () => {
         >
           <li className="cursor-pointer hover:text-[#42d7f5]">My Projects</li>
         </NavLink>
-        <li className="cursor-pointer hover:text-[#42d7f5]">Contact Me</li>
+        <NavLink
+          to="/contact"
+          className={({ isActive }) =>
+            isActive ? "text-[#43d7f5] font-bold" : ""
+          }
+        >
+          <li className="cursor-pointer hover:text-[#42d7f5]">Contact Me</li>
+        </NavLink>
         <li className="cursor-pointer hover:text-[#42d7f5]">My Blogs</li>
       </ul>
     </div>
