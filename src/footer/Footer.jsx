@@ -8,21 +8,21 @@ const Footer = () => {
         <a
           className="bg-gray-200 rounded-full h-10 w-10 flex items-center justify-center hover:bg-gray-50 hover:cursor-pointer hover:text-[#3b5998]"
           target="_blank"
-          href="https://www.facebook.com/annonymous.adnan"
+          href="https://www.facebook.com/dev.maruful"
         >
           <FaFacebookF></FaFacebookF>
         </a>
         <a
           className="bg-gray-200 rounded-full h-10 w-10 flex items-center justify-center hover:bg-gray-50 hover:cursor-pointer hover:text-[#0072b1]"
           target="_blank"
-          href="https://www.linkedin.com/in/maruful-islam22/"
+          href="https://www.linkedin.com/in/dev-maruful/"
         >
           <FaLinkedinIn></FaLinkedinIn>
         </a>
         <a
           className="bg-gray-200 rounded-full h-10 w-10 flex items-center justify-center hover:bg-gray-50 hover:cursor-pointer"
           target="_blank"
-          href="https://github.com/tawsif-adnan"
+          href="https://github.com/dev-maruful"
         >
           <FaGithub></FaGithub>
         </a>

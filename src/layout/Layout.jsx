@@ -2,6 +2,7 @@ import React from "react";
 import Sidebar from "../sidebar/Sidebar";
 import MouseEffect from "../mouseEffect/MouseEffect";
 import { Outlet } from "react-router-dom";
+import { Toaster } from "react-hot-toast";
 
 const Layout = () => {
   return (
@@ -15,6 +16,7 @@ const Layout = () => {
         </div>
       </div>
       <MouseEffect></MouseEffect>
+      <Toaster></Toaster>
     </div>
   );
 };

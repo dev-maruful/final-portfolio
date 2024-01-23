@@ -45,7 +45,7 @@ const Navigation = () => {
         >
           <li className="cursor-pointer hover:text-[#42d7f5]">Contact Me</li>
         </NavLink>
-        <li className="cursor-pointer hover:text-[#42d7f5]">My Blogs</li>
+        {/* <li className="cursor-pointer hover:text-[#42d7f5]">My Blogs</li> */}
       </ul>
     </div>
   );
